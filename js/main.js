@@ -5,13 +5,15 @@ const menuToggle = document.getElementById("menu-toggle");
 const nav = document.getElementById("nav");
 
 /* Header scroll efecto */
-window.addEventListener("scroll", function(){
-    if(window.scrollY > 50){
-        header.classList.add("scrolled");
-    } else {
-        header.classList.remove("scrolled");
-    }
-});
+if(header){
+    window.addEventListener("scroll", function(){
+        if(window.scrollY > 50){
+            header.classList.add("scrolled");
+        } else {
+            header.classList.remove("scrolled");
+        }
+    });
+}
 
 /* Menu móvil */
 if(menuToggle){

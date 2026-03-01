@@ -767,3 +767,9 @@ header .nav ul {
     }
 
 }
+
+@media (max-width: 768px) {
+    .brands-track {
+        animation: scroll 18s linear infinite;
+    }
+}
