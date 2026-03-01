@@ -640,7 +640,8 @@ header .nav ul {
 .brands-track {
     display: flex;
     gap: 60px;
-    animation: scroll 35s linear infinite;
+    width: max-content;   /* 👈 clave */
+    animation: scroll 60s linear infinite; /* más tiempo */
     align-items: center;
 }
 
@@ -829,3 +830,4 @@ header .nav ul {
     letter-spacing: 1px;
     text-align: center;
 }
+
